@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/SaiRamReddy/workspace/External jars/External jars/asm-3.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SaiRamReddy/workspace/External jars/External jars/asm-commons-3.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SaiRamReddy/workspace/External jars/External jars/asm-tree-3.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SaiRamReddy/workspace/External jars/External jars/classes12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SaiRamReddy/workspace/External jars/External jars/commons-fileupload-1.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SaiRamReddy/workspace/External jars/External jars/commons-io-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SaiRamReddy/workspace/External jars/External jars/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SaiRamReddy/workspace/External jars/External jars/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SaiRamReddy/workspace/External jars/External jars/freemarker-2.3.19.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SaiRamReddy/workspace/External jars/External jars/javassist-3.11.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SaiRamReddy/workspace/External jars/External jars/javax.servlet.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SaiRamReddy/workspace/External jars/External jars/javax.servlet-3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SaiRamReddy/workspace/External jars/External jars/jdbc-api-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SaiRamReddy/workspace/External jars/External jars/jdbc-postgresql.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SaiRamReddy/workspace/External jars/External jars/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SaiRamReddy/workspace/External jars/External jars/ognl-3.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SaiRamReddy/workspace/External jars/External jars/struts2-core-2.3.16.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/SaiRamReddy/workspace/External jars/External jars/xwork-core-2.3.16.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

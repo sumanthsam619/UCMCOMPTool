@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+	<struts>
+	<package name="default" namespace="/" extends="struts-default">
+    
+    <!-- Login action -->
+    <action name="validateLoginAction" class="action.LoginAction">	
+	<result name="admin-login-success">/adminhomepage.html</result>
+	<result name="faculty-login-success">/facultyhome.jsp</result>
+	<result name="student-login-success">/studenthome.html</result>
+	<result name="superadmin-login-success">/superadminhome.html</result>
+	<result name="login-failed">loginFailed.html</result>
+	</action>
+	 
+	 
+	<!-- Logout action -->
+	<action name="logoutAction" class="action.LogoutAction">	
+	<result name="success">/login.html</result>
+	</action>
+	
+	<!-- Add course action -->
+	<action name="addCourseAction" class="action.AddCourseAction">
+	<result name="addCourseAction-success">/addcoursesuccess.html</result>
+	<result name="addCourseAction-failed">/error.html</result>
+	</action>
+	<action name="loadCourses" class="action.AddCourseAction" method="getAllCourses">
+  	<result name="success">/addcourse.html</result> 
+	</action>
+	
+	<!-- Add user action -->
+	<action name="addUserAction" class="action.AddUserAction">
+	<result name="addUserAction-success">/addusersuccess.html</result>
+	<result name="addUserAction-failed">/error.html</result>
+	</action>
+	
+	<!-- Add department action -->
+	<action name="addDeptAction" class="action.AddDeptAction">
+	<result name="addDeptAction-success">/adddeptsuccess.html</result>
+	<result name="addUserAction-failed">/error.html</result>
+	</action>
+	
+	<!-- Add evaluation questions action -->
+	<action name="addEvalAction" class="action.AddEvalQuestionAction">
+	<result name="addEvalAction-success">/questionCreatedSuccess.html</result>
+	<result name="addEvalAction-failed">/error.html</result>
+	</action>
+	
+	<!-- Take practice test action -->
+	<action name="takePracticeTestAction" class="action.TakePracticeTestAction">
+	<result name="takePracticeTest-success">/testPage.jsp</result>
+	<result name="takePracticeTest-failed">/error.html</result>
+	</action>
+	
+	<!-- Post test submission action -->
+	<action name="testSubmittedAction" class="action.TestSubmittedAction" method="captureAnswers">
+	<result name="takePracticeTest-success">/testPage.jsp</result>
+	<result name="takePracticeTestResults-success">/testResults.jsp</result>
+	<result name="takePracticeTest-failed">/error.html</result>
+	</action>
+	
+	<!-- Post final test taken action -->
+	<action name="finalTestTakeAction" class="action.FinalTestTakeAction">
+	<result name="finalTestTakeAction-success">/testPage.jsp</result>
+	<result name="finalTestTakeAction-failed">/error.html</result>
+	</action>	
+	
+	<!-- Post final test taken action -->
+	<action name="registerAdminAction" class="action.RegisterAdminAction">
+	<result name="registerAdminAction-success">/adminhomepage.html</result>
+	<result name="registerAdminAction-failed">/error.html</result>
+	</action>
+	
+	</package>
+	</struts>
